@@ -1,0 +1,12 @@
+# GFISHERD24 single-class configuration
+
+# Set path to the prepared GFISHERD24 YOLO dataset
+
+path: /path/to/GFISHERD24
+
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: Fish

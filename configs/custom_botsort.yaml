@@ -1,0 +1,22 @@
+# Custom BoT-SORT configuration
+
+tracker_type: botsort
+
+# Association thresholds
+track_high_thresh: 0.25
+track_low_thresh: 0.10
+new_track_thresh: 0.25
+track_buffer: 15
+match_thresh: 0.82
+fuse_score: False
+
+# Global motion compensation
+gmc_method: sparseOptFlow
+
+# Re-identification
+proximity_thresh: 0.5
+appearance_thresh: 0.8
+with_reid: True
+
+# ReID model
+model: auto

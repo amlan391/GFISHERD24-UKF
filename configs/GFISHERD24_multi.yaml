@@ -1,0 +1,166 @@
+# GFISHERD24 multi-class configuration
+
+# Set path to the prepared GFISHERD24 YOLO dataset
+
+path: /path/to/GFISHERD24
+
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: Acanthurus
+  1: Acanthurus coeruleus
+  2: Albula vulpes
+  3: Alectis ciliaris
+  4: Anisotremus virginicus
+  5: Anomura
+  6: Anthiadidae
+  7: Archosargus probatocephalus
+  8: Balistes capriscus
+  9: Balistes vetula
+  10: Bodianus pulchellus
+  11: Bodianus rufus
+  12: Calamus
+  13: Calamus bajonado
+  14: Calamus leucosteus
+  15: Calamus nodosus
+  16: Calamus proridens
+  17: Callionymidae
+  18: Calotomus
+  19: Canthidermis sufflamen
+  20: Canthigaster jamestyleri
+  21: Canthigaster rostrata
+  22: Carangidae
+  23: Caranx bartholomaei
+  24: Caranx crysos
+  25: Caranx ruber
+  26: Carcharhinus
+  27: Carcharhinus falciformis
+  28: Carcharhinus plumbeus
+  29: Caulolatilus chrysops
+  30: Caulolatilus cyanops
+  31: Caulolatilus microps
+  32: Centropristis ocyurus
+  33: Centropristis philadelphica
+  34: Cephalopholis cruentata
+  35: Cephalopholis fulva
+  36: Chaetodipterus faber
+  37: Chaetodon
+  38: Chaetodon capistratus
+  39: Chaetodon ocellatus
+  40: Chaetodon sedentarius
+  41: Chordata
+  42: Chromis
+  43: Chromis enchrysurus
+  44: Chromis insolata
+  45: Decapterus
+  46: Decodon puellaris
+  47: Dermatolepis inermis
+  48: Diodontidae
+  49: Diplectrum formosum
+  50: Elagatis bipinnulata
+  51: Epinephelus
+  52: Epinephelus adscensionis
+  53: Epinephelus morio
+  54: Eques lanceolatus
+  55: Gobiidae
+  56: Gonioplectrus hispanus
+  57: Gymnothorax moringa
+  58: Gymnothorax saxicola
+  59: Haemulon
+  60: Haemulon album
+  61: Haemulon aurolineatum
+  62: Haemulon flavolineatum
+  63: Haemulon macrostomum
+  64: Haemulon melanurum
+  65: Haemulon plumierii
+  66: Halichoeres
+  67: Halichoeres bathyphilus
+  68: Halichoeres bivittatus
+  69: Halichoeres garnoti
+  70: Holacanthus
+  71: Holacanthus bermudensis
+  72: Holocentrus
+  73: Holocentrus adscensionis
+  74: Hypoplectrus
+  75: Hypoplectrus gemma
+  76: Hypoplectrus unicolor
+  77: Hyporthodus flavolimbatus
+  78: Hyporthodus nigritus
+  79: Kyphosus
+  80: Lachnolaimus maximus
+  81: Lactophrys trigonus
+  82: Liopropoma eukrines
+  83: Lutjanus
+  84: Lutjanus analis
+  85: Lutjanus apodus
+  86: Lutjanus buccanella
+  87: Lutjanus campechanus
+  88: Lutjanus griseus
+  89: Lutjanus synagris
+  90: Lutjanus vivanus
+  91: Malacanthus plumieri
+  92: Monacanthus tuckeri
+  93: Mullidae
+  94: Mulloidichthys martinicus
+  95: Muraena retifera
+  96: Mycteroperca
+  97: Mycteroperca bonaci
+  98: Mycteroperca interstitialis
+  99: Mycteroperca microlepis
+  100: Mycteroperca phenax
+  101: Ocyurus chrysurus
+  102: Ophichthus puncticeps
+  103: Opistognathus
+  104: Opistognathus aurifrons
+  105: Ostichthys trachypoma
+  106: Pagrus pagrus
+  107: Paranthias furcifer
+  108: Pareques umbrosus
+  109: Pomacanthus
+  110: Pomacanthus arcuatus
+  111: Pomacanthus paru
+  112: Pomacentridae
+  113: Priacanthus arenatus
+  114: Pristigenys alta
+  115: Pristipomoides
+  116: Prognathodes aculeatus
+  117: Prognathodes aya
+  118: Pronotogrammus martinicensis
+  119: Pseudupeneus maculatus
+  120: Ptereleotris
+  121: Pterois
+  122: Rachycentron canadum
+  123: Rhomboplites aurorubens
+  124: Rypticus maculatus
+  125: Scarus vetula
+  126: Sciaenidae
+  127: Scomberomorus
+  128: Scomberomorus maculatus
+  129: Selene vomer
+  130: Seriola
+  131: Seriola dumerili
+  132: Seriola fasciata
+  133: Seriola rivoliana
+  134: Seriola zonata
+  135: Serranus
+  136: Serranus annularis
+  137: Serranus atrobranchus
+  138: Serranus phoebe
+  139: Serranus subligarius
+  140: Serranus tortugarum
+  141: Sparidae
+  142: Sparisoma aurofrenatum
+  143: Sparisoma viride
+  144: Sphyraena barracuda
+  145: Sphyrna lewini
+  146: Stegastes partitus
+  147: Stenocionops spinimanus
+  148: Stenotomus caprinus
+  149: Syacium
+  150: Synodontidae
+  151: Thalassoma bifasciatum
+  152: Upeneus parvus
+  153: Urophycis regia
+  154: Xanthichthys ringens
